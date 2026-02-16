@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./form.css"
 import axios from "axios";
-import "./Form.css";
 
 const AVAILABLE_STEPS = [
   "cleantext",
