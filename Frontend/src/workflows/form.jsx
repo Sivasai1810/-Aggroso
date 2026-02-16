@@ -40,7 +40,7 @@ const Form = () => {
     };
 
     try {
-      const res = await axios.post("http://localhost:3000/sent/data", {playload});
+      const res = await axios.post("https://aggroso-0xrr.onrender.com/sent/data", {playload});
      console.log(res.data.result)
       setResults(res.data.result);
       const newEntry = {
