@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  background: #ffffff;
+}
+
+.container {
+  max-width: 920px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.container h2 {
+  margin-bottom: 16px;
+}
+textarea {
+  width: 100%;
+  min-height: 130px;
+  padding: 14px;
+  font-size: 14.5px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  outline: none;
+  resize: vertical;
+}
+
+textarea:focus {
+  border-color: #111827;
+}
+
+.steps {
+  margin-top: 16px;
+}
+
+.steps button {
+  margin: 6px 8px 0 0;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid #111827;
+  background: #ffffff;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.steps button:hover {
+  background: #111827;
+  color: #ffffff;
+}
+
+.selected {
+  margin-top: 20px;
+}
+
+.selected h4 {
+  margin-bottom: 10px;
+}
+
+.selected ol {
+  padding-left: 18px;
+}
+
+.selected li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.selected li button {
+  background: none;
+  border: none;
+  color: #ef4444;
+  cursor: pointer;
+}
+
+.run-btn {
+  margin-top: 22px;
+  padding: 10px 22px;
+  background: #111827;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.run-btn:hover {
+  background: #000000;
+}
+
+.results {
+  margin-top: 40px;
+}
+
+.results h3 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.result-card {
+  background: #f9fafb;
+  border-radius: 14px;
+  padding: 18px;
+  margin-bottom: 18px;
+  border: 1px solid #e5e7eb;
+}
+
+.result-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.step-count {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.step-pill {
+  font-size: 13px;
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.step-pill.cleantext {
+  background: #e0f2fe;
+  color: #0369a1;
+}
+
+.step-pill.summarize {
+  background: #ecfeff;
+  color: #0f766e;
+}
+
+.step-pill.ExtractKeyPoints {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.step-pill.TagCategory {
+  background: #ede9fe;
+  color: #5b21b6;
+}
+
+.result-content {
+  background: #ffffff;
+  padding: 16px;
+  border-radius: 10px;
+  font-size: 14.5px;
+  line-height: 1.75;
+  color: #111827;
+  border: 1px solid #e5e7eb;
+}
+
+.history {
+  margin-top: 48px;
+}
+
+.history h3 {
+  margin-bottom: 16px;
+}
+
+.history-card {
+  background: #f9fafb;
+  padding: 14px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #e5e7eb;
+}
+
+.history-card p {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.history-card small {
+  color: #6b7280;
+  font-size: 13px;
+}
